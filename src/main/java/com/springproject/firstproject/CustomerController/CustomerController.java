@@ -14,7 +14,7 @@ public class CustomerController {
     }
     @RequestMapping(value="/home", method= RequestMethod.POST, params="withdraw")
     public String getWithdrawPage() {
-        return "withdraw";
+        return "/withdraw";
     }
 
     @RequestMapping(value="/home", method= RequestMethod.POST, params="Deposit")
